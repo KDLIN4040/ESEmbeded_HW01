@@ -14,7 +14,7 @@ int main()
 	//arrary of function pointer 
 	int(*fncpt[])(int,int) = {plus,minus,multiply,divided};
 	char symble[4] = {'+','-','*','/'};
-    for(int i=0;i<4;i++){
+        for(int i=0;i<4;i++){
     	if(symble[i] == b)
     		printf("%d %c %d = %d\n", a, b, c, fncpt[i](a, c));
     }
